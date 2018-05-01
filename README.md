@@ -35,6 +35,12 @@ TestNG testing framework is used to write testcases with TestNG annotations.
 Extent Reports
 Used Extent Reporting for Reports
 
+Reports
+-------
+In test-output folder
+index.html
+OneDriveTest_Extent.html
+
 Data 
 -----
 Folder with the name Data is present inside project. It consists of files which are required for the project
@@ -70,6 +76,7 @@ Testcase 5: verify_download()
 -----------------------------
 Selects an updated file and -from version history downloads both the versions.
 Verifies if the files are downloaded correctly and compares the contents and displays what is the difference in the contents
+Verify dowloaded files under Downloads package
 
 Testcase 6: verify_delete_file()
 --------------------------------
