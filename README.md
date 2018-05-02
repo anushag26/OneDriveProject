@@ -7,6 +7,13 @@ Prerequisites
 1) Java/JDK 1.6 and above installed
 2) Maven 
 
+Dependencies
+------------
+1) Selenium-java 3.6.0
+2) Testng 6.8
+3) Extent Reports 2.41.2
+
+
 Steps to run OneDriveproject
 --------------------------------------
 1) Create a folder Workspace in C:\\
@@ -14,13 +21,6 @@ Steps to run OneDriveproject
 3) Use Eclipe to import project
 4) Run HomeTest.java as TestNG Test
 5) Please provide UserName and Password in src/main/java/com/qa/config/config.properties
-
-
-Dependencies
-------------
-1) Selenium-java 3.6.0
-2) Testng 6.8
-3) Extent Reports 2.41.2
 
 Maven 
 -----
