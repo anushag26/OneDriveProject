@@ -31,7 +31,7 @@ Browser- Chrome
 
 Page Object Design pattern
 --------------------------
-Page Object design pattern is used to have reusable WebElements/small helper methods separated from actual test classes and give the opportunity to have nice structured and easily readable tests.
+Page Object design pattern with page factory is used to have reusable WebElements/small helper methods separated from actual test classes and give the opportunity to have nice structured and easily readable tests.
 
 TestNG
 ------
@@ -41,7 +41,7 @@ Used Extent Reporting for Reports
 
 Reports
 -------
-In test-output folder
+Reports are in test-output folder
 index.html
 OneDriveTest_Extent.html
 
@@ -78,12 +78,22 @@ Checks if file is getting updated with the Text Editor is getting saved.
 
 Testcase 5: verify_download()
 -----------------------------
-Selects an updated file and -from version history downloads both the versions.
-Verifies if the files are downloaded correctly and compares the contents and displays what is the difference in the contents
-Verify dowloaded files under Downloads package
+Selects an updated file and from version history downloads both the versions.
+Verifies if the files are downloaded correctly and compares the contents and displays what is the difference in the contents.
+Verify dowloaded files are getting downloading under Downloads package.
 
 Testcase 6: verify_delete_file()
 --------------------------------
 Selects a file and deletes it from the Documents folder.
 Verifies if the file is deleted by checking the message displayed after deleting.
+
+
+Additional Steps
+----------------
+Additionally we can add code to capture screen shots for failed testcases in Extent Reports.
+We can configure log4j file for logs.
+Listener class to customize TestNG reports.
+Validations to check if the page is navigated to correct page by checking the page titles.
+
+
 	
