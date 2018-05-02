@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.qa.testcases.HomeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Upload_ContentFile"/>
+          <include name="updateContent"/>
+          <include name="verify_download"/>
+        </methods>
+      </class> <!-- com.qa.testcases.HomeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

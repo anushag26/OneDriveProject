@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qa.testcases.HomeTest">
+        <methods>
+          <include name="setup"/>
+          <include name="Upload_ContentFile"/>
+          <include name="Upload_EmptyFile"/>
+          <include name="validate_MetaData"/>
+          <include name="updateContent"/>
+          <include name="verify_delete_file"/>
+          <include name="verify_download"/>
+        </methods>
+      </class> <!-- com.qa.testcases.HomeTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
