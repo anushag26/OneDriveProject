@@ -1,4 +1,4 @@
-# OneDriveAutomation
+﻿# OneDriveAutomation
 
 This project is written in java and will serve an example of implementing a Selenium test project with Selenium and Maven.
 Prerequisites
@@ -11,6 +11,8 @@ Steps to run OneDriveAutomation project
 •	Clone OneDriveAutomation from https:\\github.com\anushag26\OneDriveAutomation
 •	Use Eclipe to import project
 •	Run HomeTest.java as TestNG Test
+•	Please provide UserName and Password in src/main/java/com/qa/config/config.properties
+
 
 Dependencies
 ------------
