@@ -53,9 +53,7 @@ public class Home extends TestBase{
 	
 	@FindBy(xpath="//div[contains(text(),'uploaded')]")
 	WebElement trackerrormsg;
-	
-	
-	
+		
 	@FindBy(xpath="//i[@data-icon-name='Info']")
 	WebElement infoLink;
 		
@@ -92,7 +90,6 @@ public class Home extends TestBase{
 	@FindBy(xpath="//span[text()='Delete']")
 	WebElement delete_button;
 	
-
 	@FindBy(xpath="//div[contains(text(),'Deleted')]")
 	WebElement delete_msg;
 	
@@ -198,8 +195,7 @@ public class Home extends TestBase{
 		return msg;
 	}
 	
-	
-	
+		
 	public void select_text_file(String filename) 
 	{
 		String beforetext="//span[@role='checkbox']/parent::div[@data-automationid='";
@@ -238,7 +234,6 @@ public class Home extends TestBase{
 
 				try {
 					//Scroll to end of the Page 
-
 					Actions action = new Actions(driver);
 					Thread.sleep(3000);
 					action.sendKeys(Keys.PAGE_DOWN).build().perform();
